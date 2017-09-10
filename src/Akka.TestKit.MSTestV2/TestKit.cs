@@ -10,7 +10,7 @@ using Akka.Configuration;
 
 namespace Akka.TestKit.MSTestV2
 {
-    class TestKit : TestKitBase
+    public class TestKit : TestKitBase
     {
         private static readonly MSTestAssertions _assertions = new MSTestAssertions();
 

@@ -13,7 +13,7 @@ namespace Akka.TestKit.MSTestV2
     /// <summary>
     /// Assertions for the MSTest Framework
     /// </summary>
-    class MSTestAssertions : ITestKitAssertions
+    public class MSTestAssertions : ITestKitAssertions
     {
         public void Fail(string format = "", params object[] args)
         {
